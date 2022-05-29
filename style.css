@@ -1,0 +1,906 @@
+body{
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Fira Code', monospace;
+  font-family: 'Merriweather', serif;
+  font-family: 'My Soul', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+.container-fluid .navbar-brand{
+  color: #EB4747;
+}
+.navbar-light .navbar-nav .nav-link{
+ position: relative;
+ color: black;
+font-size: 16px;
+line-height: 24px;
+top: 6px;
+left: 100px;
+right: 210px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: red;
+}
+.navbar-collapse{
+ margin-left: 100px;
+ margin-right: 300px;
+}
+.nav-buttom{
+  display: flex;
+  padding-left: 40%;
+}
+.hero-section{
+  background-color: #F8F8F8;
+ border-radius: 60px;
+ position: absolute;
+width: 1170px;
+height: 90px;
+left: 135px;
+top: 40px;
+}
+.sign .btn-in{
+  position: relative;
+  width: 140px;
+  height: 50px;
+  right:50px;
+  background-color: #fffcfc;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  top: 6px;
+  left: 130px;
+}
+.sign .btn-out{
+  position: relative;
+  width: 140px;
+  height: 50px;
+  background-color: #EB4747;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  color: #F8F8F8;
+  top: 6px;
+  left: 166px;
+  right: 50px;
+}
+
+
+
+.button-1{
+  position: absolute;
+width: 140px;
+height: 50px;
+left: 1115px;
+top: 20px;
+bottom: 20px;
+right: 50px;
+}
+.button-2{
+  position: absolute;
+width: 140px;
+height: 50px;
+left: 970px;
+top: 20px;
+bottom: 20px;
+right: 210px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+color: #2E2E2E
+}
+.communicate h1{
+  position: absolute;
+width: 634px;
+height: 120px;
+left: 403px;
+top: 230px;
+
+font-family: 'Droid Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+color: #0A0839;
+}
+.communicate p{
+  position: absolute;
+  width: 580px;
+  height: 60px;
+  left: 430px;
+  top: 365px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #6D6D6D;  
+}
+.communicate img{
+  position: absolute;
+width: 1110px;
+height: 675px;
+left: 165px;
+top: 419px;
+}
+.featurs h1{
+  position: absolute;
+  width: 279px;
+  height: 44px;
+  left: 581px;
+  top: 1182px;
+  
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 44px;
+  color: #0A0839;
+}
+.featurs h6{
+  position: absolute;
+  width: 552px;
+  height: 32px;
+  left: 444px;
+  top: 1238px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #2E2E2E;
+}
+
+.collaboration img{
+  position: absolute;
+width: 60px;
+height: 60px;
+left: 310px;
+top: 1330px;
+}
+.collaboration h3{
+  position: absolute;
+  width: 162px;
+  height: 28px;
+  left: 259px;
+  top: 1420px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  color: #2E2E2E;
+}
+.collaboration p{
+  position: absolute;
+  width: 350px;
+  height: 56px;
+  left: 165px;
+  top: 1458px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #6D6D6D;
+}
+.wireframeing img{
+  position: absolute;
+width: 60px;
+height: 60px;
+left: 690px;
+top: 1330px;
+}
+.wireframeing h3{
+  position: absolute;
+width: 164px;
+height: 28px;
+left: 638px;
+top: 1420px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 28px;
+color: #2E2E2E;
+}
+.wireframeing p{
+  position: absolute;
+width: 350px;
+height: 56px;
+left: 545px;
+top: 1458px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #6D6D6D;
+}
+.prototyping img{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1070px;
+  top: 1330px;
+}
+.prototyping h3{
+  position: absolute;
+  width: 142px;
+  height: 28px;
+  left: 1029px;
+  top: 1420px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  color: #2E2E2E;
+}
+.prototyping p{
+  position: absolute;
+  width: 350px;
+  height: 56px;
+  left: 925px;
+  top: 1458px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #6D6D6D;
+}
+.side-image .left-snake{
+  position: absolute;
+width: 119.66px;
+height: 74.61px;
+left: 100px;
+top: 289.94px;
+}
+.side-image .right-circle{
+  position: absolute;
+width: 261px;
+height: 261px;
+left: 1315px;
+top: 239px;
+}
+.side-image .left-circle{
+  position: absolute;
+  width: 261px;
+  height: 261px;
+  left: -146px;
+  top: 967px;
+}
+.side-image .right-shake{
+  position: absolute;
+  width: 297.76px;
+  height: 83px;
+  left: 1100px;
+  top: 1053px;
+}
+.project h1{
+  position: absolute;
+  width: 452px;
+  height: 108px;
+  left: 495px;
+  top: 1702px;
+  
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px; 
+  text-align: center;
+  color: #0A0839;
+}
+.project p{
+  position: absolute;
+  width: 549px;
+  height: 64px;
+  left: 446px;
+  top: 1822px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #6D6D6D;
+}
+.project img{
+  position: absolute;
+width: 257.7px;
+height: 260.56px;
+left: -44px;
+top: 1810px;
+}
+
+.user h1{
+  position: absolute;
+width: 445px;
+height: 84px;
+left: 165px;
+top: 2092px;
+
+font-family: 'Droid Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+/* or 131% */
+
+
+color: #0A0839;
+}
+.user p{
+  position: absolute;
+  width: 445px;
+  height: 60px;
+  left: 165px;
+  top: 2188px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  
+  
+  color: #6D6D6D;
+}
+.user .btn-out{
+position: absolute;
+width: 160px;
+height: 49px;
+left: 165px;
+top: 2288px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+border: 1px solid #EB4747;
+color: #EB4747;
+}
+.user img{
+  position: absolute;
+  width: 792px;
+  height: 529px;
+  left: 648px;
+  top: 1946px;
+}
+.user .dot{
+  position: absolute;
+width: 273.93px;
+height: 178.38px;
+left: -118px;
+top: 2454px;
+}
+
+.maestro h3{
+  position: absolute;
+  width: 445px;
+  height: 32px;
+  left: 830px;
+  top: 2793px;
+  
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  
+  
+  color: #0A0839;
+}
+.maestro p{
+  position: absolute;
+  width: 445px;
+  height: 60px;
+  left: 830px;
+  top: 2837px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  
+  
+  color: #6D6D6D;
+}
+.maestro img{
+  position: absolute;
+width: 752px;
+height: 501px;
+left: 0px;
+top: 2635px;
+}
+.maestro button{
+  position: absolute;
+width: 160px;
+height: 49px;
+left: 830px;
+top: 2937px;
+border: 1px solid #EB4747;
+ 
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+
+color: #EB4747;
+}
+.maestro .star{
+  position: absolute;
+width: 257.7px;
+height: 260.56px;
+left: 1250px;
+top: 2946px;
+}
+
+
+.feedback .star{
+  position: absolute;
+width: 257.7px;
+height: 260.56px;
+left: -73px;
+top: 3273px;
+}
+.feedback h3{
+  position: absolute;
+  width: 445px;
+  height: 84px;
+  left: 165px;
+  top: 3482px;
+  
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  /* or 131% */
+  
+  
+  color: #0A0839;
+}
+.feedback p{
+  position: absolute;
+  width: 445px;
+  height: 90px;
+  left: 165px;
+  top: 3578px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  
+  
+  color: #6D6D6D;
+}
+.feedback button{
+  position: absolute;
+width: 160px;
+height: 49px;
+left: 165px;
+top: 3708px;
+border: 1px solid #EB4747;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+
+color: #EB4747;
+}
+.feedback img{
+  position: absolute;
+  width: 638px;
+  height: 638px;
+  left: 711px;
+  top: 3296px;
+}
+
+.user-feedback img{
+  position: absolute;
+width: 194px;
+height: 194px;
+left: 223px;
+top: 4241px;
+}
+.user-h{
+  position: absolute;
+width: 311px;
+height: 44px;
+left: 565px;
+top: 4094px;
+
+font-family: 'Droid Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+/* identical to box height, or 100% */
+
+
+color: #0A0839;
+}
+/* .user-feedback{
+  position: absolute;
+width: 825px;
+height: 280px;
+
+
+background: #3f4792;
+border-radius: 15px;
+} */
+.user-feedback h6{
+  position: absolute;
+width: 630px;
+height: 102px;
+left: 467px;
+top: 4248px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 34px;
+/* or 155% */
+
+
+color: #2E2E2E;
+}
+.user-feedback h5{
+  position: absolute;
+width: 115px;
+height: 20px;
+left: 467px;
+top: 4395px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+
+color: #2E2E2E;
+}
+.user-feedback p{
+  position: absolute;
+width: 79px;
+height: 16px;
+left: 467px;
+top: 4425px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+
+color: #7A7A7A;
+}
+.user-feedback .love{
+  position: absolute;
+width: 175px;
+height: 85px;
+left: 1042px;
+top: 4441px;
+}
+
+.reach{
+  position: absolute;
+width: 1438.39px;
+height: 850.77px;
+left: -23px;
+top: 4509px;
+}
+
+
+.about h1{
+  position: absolute;
+  width: 71px;
+  height: 26px;
+  left: 165px;
+  top: 5349px;
+  
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 26px;
+  /* identical to box height, or 65% */
+  
+  
+  color: #EB4747;
+}
+.about p{
+  position: absolute;
+width: 203px;
+height: 93px;
+left: 166px;
+top: 5405px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #6D6D6D;
+}
+.about h6{
+  position: absolute;
+  width: 168px;
+  height: 12px;
+  left: 165px;
+  top: 5518px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  
+  
+  color: #6D6D6D;
+}
+.link h5{
+  position: absolute;
+  width: 73px;
+  height: 32px;
+  left: 462px;
+  top: 5346px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  
+  
+  color: #000000;
+}
+.link h6{
+  position: absolute;
+width: 99px;
+height: 180px;
+left: 462px;
+top: 5408px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 36px;
+/* or 257% */
+
+
+color: #6D6D6D;
+}
+.information h5{
+  position: absolute;
+width: 93px;
+height: 32px;
+left: 657px;
+top: 5346px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 178% */
+
+
+color: #000000;
+}
+.information h6{
+  position: absolute;
+width: 129px;
+height: 48px;
+left: 657px;
+top: 5408px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #6D6D6D;
+}
+.information p{
+  position: absolute;
+width: 97px;
+height: 22px;
+left: 657px;
+top: 5466px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #6D6D6D;
+}
+.information .number{
+  position: absolute;
+width: 101px;
+height: 22px;
+left: 657px;
+top: 5528px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #6D6D6D;
+}
+.loop h5{
+  position: absolute;
+width: 98px;
+height: 32px;
+left: 853px;
+top: 5346px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 178% */
+
+
+color: #000000;
+}
+.loop h6{
+  position: absolute;
+width: 204px;
+height: 72px;
+left: 852px;
+top: 5408px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #6D6D6D;
+}
+.company h5{
+  position: absolute;
+  width: 127px;
+  height: 32px;
+  left: 1148px;
+  top: 5346px;
+  
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  
+  
+  color: #000000;
+}
+.company h6{
+  position: absolute;
+width: 101px;
+height: 180px;
+left: 1148px;
+top: 5392px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 36px;
+/* or 257% */
+
+
+color: #6D6D6D;
+}
+.reserved h6{
+  position: absolute;
+width: 189px;
+height: 22px;
+left: 165px;
+top: 5642px;
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+
+color: #757575;
+}
+.logo .facebook{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 1125px;
+top: 5638px;
+}
+.logo .star{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 1165px;
+top: 5638px;
+}
+.logo .hes{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 1205px;
+top: 5638px;
+}
+.logo .google{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 1245px;
+top: 5638px;
+}
+.input{
+  position: absolute;
+width: 215px;
+height: 40px;
+left: 852px;
+top: 5513px;
+}
