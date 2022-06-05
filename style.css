@@ -43,6 +43,8 @@ top: 40px;
 .nav ul li a{
   text-decoration: none;
   font-family: 'Cabin';
+  float: left;
+  list-style: none;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
