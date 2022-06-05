@@ -5,29 +5,6 @@ body{
   font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
 }
-.container-fluid .navbar-brand{
-  color: #EB4747;
-}
-.navbar-light .navbar-nav .nav-link{
- position: relative;
- color: black;
-font-size: 16px;
-line-height: 24px;
-top: 6px;
-left: 100px;
-right: 210px;
-}
-.navbar-light .navbar-nav .nav-link:hover{
-  color: red;
-}
-.navbar-collapse{
- margin-left: 100px;
- margin-right: 300px;
-}
-.nav-buttom{
-  display: flex;
-  padding-left: 40%;
-}
 .hero-section{
   background-color: #F8F8F8;
  border-radius: 60px;
@@ -37,59 +14,72 @@ height: 90px;
 left: 135px;
 top: 40px;
 }
-.sign .btn-in{
-  position: relative;
-  width: 140px;
-  height: 50px;
-  right:50px;
-  background-color: #fffcfc;
-  font-weight: 600;
-  font-size: 18px;
-  border: none;
-  top: 6px;
-  left: 130px;
-}
-.sign .btn-out{
-  position: relative;
-  width: 140px;
-  height: 50px;
-  background-color: #EB4747;
-  font-weight: 600;
-  font-size: 18px;
-  border: none;
-  border-radius: 10px;
-  color: #F8F8F8;
-  top: 6px;
-  left: 166px;
-  right: 50px;
-}
-
-
-
-.button-1{
+.logo h2{
   position: absolute;
-width: 140px;
-height: 50px;
-left: 1115px;
-top: 20px;
-bottom: 20px;
-right: 50px;
+  width: 78px;
+  height: 44px;
+  left: 50px;
+  top: -10px;
+  
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 44px;
+  /* identical to box height, or 100% */
+  
+  
+  color: #EB4747;
 }
-.button-2{
+.nav ul li{
+  position:relative;
+  float: left;
+  list-style: none;
+  left: 307px;
+  top: 16px;
+  width: 150px;
+  height: 18px;
+}
+.nav ul li a{
+  text-decoration: none;
+  font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+color: #000000;
+}
+.nav ul li a:hover{
+  color: #EB4747;
+}
+.buttom a{
   position: absolute;
-width: 140px;
-height: 50px;
-left: 970px;
-top: 20px;
-bottom: 20px;
-right: 210px;
+width: 53px;
+height: 18px;
+left: 907px;
+top: 36px;
+text-decoration: none;
 
 font-family: 'Cabin';
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 18px;
-color: #2E2E2E
+color: #2E2E2E;
+}
+.buttom a:hover{
+  color: firebrick;
+}
+.buttom button{
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  left: 1115px;
+  top: 20px;
+  left: 980px;
+  
+  background: #EB4747;
+  border-radius: 10px;
 }
 .communicate h1{
   position: absolute;
